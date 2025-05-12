@@ -66,7 +66,7 @@ Make sure your form:
 
 Example Turnstile widget in a Breakdance form:
 
-![Cloudflare Turnstile in Breakdance Form](https://raw.githubusercontent.com/yourusername/turnstile-validation/main/screenshot.png)
+![Cloudflare Turnstile in Breakdance Form](https://raw.githubusercontent.com/MeonValleyWeb/cloudflare-turnstile-wordpress/main/Screenshot.jpg)
 
 ---
 
