@@ -33,12 +33,12 @@ A lightweight WordPress plugin to validate Cloudflare Turnstile CAPTCHA response
 
 2. Add the secret key to your `.env` file:
    ```env
-   CF_TURNSTILE_SECRET=your_secret_key_here
+   CLOUDFLARE_TURNSTILE_SECRET=your_secret_key_here
    ```
 
 3. Expose it in `config/application.php`:
    ```php
-   'Config::define('CLOUDFLARE_TURNSTILE_SECRET', env('CLOUDFLARE_TURNSTILE_SECRET'));
+   Config::define('CLOUDFLARE_TURNSTILE_SECRET', env('CLOUDFLARE_TURNSTILE_SECRET'));
    ```
 
 4. Activate the plugin in your WordPress admin.
