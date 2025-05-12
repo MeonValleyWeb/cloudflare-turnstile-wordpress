@@ -38,7 +38,7 @@ A lightweight WordPress plugin to validate Cloudflare Turnstile CAPTCHA response
 
 3. Expose it in `config/application.php`:
    ```php
-   'cf_turnstile_secret' => env('CF_TURNSTILE_SECRET'),
+   'Config::define('CLOUDFLARE_TURNSTILE_SECRET', env('CLOUDFLARE_TURNSTILE_SECRET'));
    ```
 
 4. Activate the plugin in your WordPress admin.
